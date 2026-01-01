@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ferza</title>
+<style type="text/css">
+body {
+    background-image: url(img/fundo.png);
+}
+</style>
+</head>
+
+<body style="text-align: center; font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-weight: bold; color: #5F34AF;">
+<table width="880" border="0" align="center" cellpadding="1" cellspacing="0">
+  <tbody>
+    <tr>
+      <td height="99" colspan="3" align="center" bgcolor="#FFFFFF"><img src="img/CAPA.png" width="900" height="200" alt=""/></td>
+    </tr>
+    <tr>
+      <td height="40" align="center" valign="middle" bgcolor="#FFFFFF"><a href="https://xferza.github.io/web/sobre.html"><img src="img/p2.png" width="295" height="40" alt=""/></a><a href="https://www.xferzax.github.io/web/sobre.html"></a><a href="https://www.xferzax.github.io/web/conteudos.html"></a></td>
+      <td align="center" valign="middle" bgcolor="#FFFFFF"><a href="https://xferza.github.io/web"><img src="img/p1.png" width="295" height="40" alt=""/></a><a href="https://www.xferzax.github.io/web"></a></td>
+      <td align="center" valign="middle" bgcolor="#FFFFFF"><a href="https://xferza.github.io/web/conteudos.html"><img src="img/p3.png" width="295" height="40" alt=""/></a></td>
+    </tr>
+    <tr>
+      <td height="629" colspan="3" align="center" bgcolor="#E5E5E5"><p>&nbsp;</p>
+        <table width="756" border="0" cellspacing="2">
+        <tbody>
+          <tr>
+            <td width="750" height="120" align="center" valign="middle" bgcolor="#E5E5E5"><img src="img/bannergames.png" width="750" height="120" alt=""/></td>
+          </tr>
+        </tbody>
+    </table>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 15px;">&nbsp;</p>
+      <table width="758">
+        <tbody>
+          <tr>
+            <td width="750" height="450" align="center" valign="middle">&nbsp; <iframe id="odysee-iframe" style="width:100%; aspect-ratio:16 / 9;" src="https://odysee.com/%24/embed/%40hadomancer%3Ae%2Freview-da-nova-cole%C3%A7%C3%A3o-passe-de%3Af?r=5uqx4jgNSzAcpZ6szR4nHgHUr8dCEWJe" allowfullscreen></iframe> </td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 15px;">&nbsp;</p>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 15px;">&nbsp;</p>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 15px;">&nbsp;</p>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 15px;">&nbsp;</p>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 15px;">&nbsp;</p>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 15px;">&nbsp;</p>
+      <table width="43" border="0" align="right" cellspacing="2">
+        <tbody>
+          <tr>
+            <td width="37"><a href="https://xferza.github.io/web/apoiar.html"><img src="img/assinaturas.png" width="40" height="40" alt=""/></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <table width="787" border="0" align="center" cellpadding="0" cellspacing="0">
+        
+        <tbody>
+        
+        
+  <tr>            
+    <td width="787" height="450" align="center" valign="middle" bgcolor="#C6C4CC"> <div style="position: relative; width:780px; height:500px; margin:auto; overflow:hidden;">
+
+    <!-- THUMB -->
+    <img src="img/thumbvideo.png"
+         alt="Clique para assistir"
+         style="position:absolute; top:0; left:0; width:100%; height:100%;
+                object-fit:cover; border-radius:12px; cursor:pointer;"
+         onclick="iniciarVideo()">
+
+    <!-- BOTÃO DE PLAY -->
+    <div id="play-button"
+         style="position:absolute; top:50%; left:50%;
+                transform:translate(-50%, -50%);
+                width:90px; height:90px; border-radius:50%;
+                background:rgba(0,0,0,0.55);
+                display:flex; align-items:center; justify-content:center;
+                transition:0.3s; cursor:pointer;"
+         onclick="iniciarVideo()">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 64 64"
+             width="45" height="45" fill="#fff">
+            <path d="M16 12v40l36-20z"/>
+        </svg>
+    </div>
+
+    <!-- VÍDEO -->
+    <div id="video-player"
+         style="display:none; width:100%; height:100%; position:absolute; top:0; left:0;">
+
+        <style>
+            /* Força o player a ficar do tamanho do container */
+            #video-player iframe {
+                width: 100% !important;
+                height: 100% !important;
+            }
+        </style>
+
+        <div itemscope itemtype="https://schema.org/VideoObject">
+            <meta itemprop="name" content="#VLOG 1 | Persistindo mais uma vez">
+            <meta itemprop="description" content="#VLOG 1 | Persistindo mais uma vez">
+            <meta itemprop="uploadDate" content="2025-12-02T03:02:20.000Z">
+            <meta itemprop="thumbnailUrl" content="https://s1.dmcdn.net/v/ZXQjK1fBbSgvR_apS/x120">
+            <meta itemprop="duration" content="P122S">
+            <meta itemprop="embedUrl" content="https://geo.dailymotion.com/player/xtba2.html?video=k5B4qacZdNzjgOEkB7K">
+
+            <script src="https://geo.dailymotion.com/player/xtba2.js"
+                    data-video="k5B4qacZdNzjgOEkB7K"></script>
+        </div>
+
+    </div>
+</div>
+      <script>
+function iniciarVideo() {
+    document.getElementById("video-player").style.display = "block";
+    document.getElementById("play-button").style.display = "none";
+}
+</script>
+ <script>
+function iniciarVideo() {
+    document.getElementById("video-player").style.display = "block";
+    document.getElementById("play-button").style.display = "none";
+}
+</script>
+ </td>
+  </tr>
+        
+  <tr>            
+    <td height="382" align="center" valign="top" bgcolor="#C6C4CC" style="padding: 0;"><table width="787" border="0" align="center" cellpadding="3" cellspacing="0">
+      
+      <tbody>
+      
+      
+      <tr>                  
+        <td width="781" colspan="2" align="center" style="padding-top: 0px; padding-bottom: 0px;"><table width="782" border="0" align="center" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td width="724" align="center" bgcolor="#FFFFFF" style="font-size: 30px; color: #000000; font-weight: normal;">Vídeo fixado</td>
+              <td width="50" align="center" bgcolor="#FFFFFF" style="font-size: 30px; color: #8914A3; font-weight: bold;"><img src="img/fix.png" width="50" height="50" alt=""/></td>
+            </tr>
+          </tbody>
+        </table></td>
+      </tr>
+      
+      <tr>                  
+        <td height="95" align="center" style="font-size: 30px; padding-top: 0px; padding-bottom: 0px;"><h5 lang="pt" style="margin: 0; padding: 0;"> <span style="font-size: 30px; color: #8914A3; font-weight: bold;">02 / 12 / 2025 (TERÇA-FEIRA)</span> </h5>
+          <p style="margin: 0; font-size: 30px;">#VLOG 1 | Persistindo mais uma vez</p></td>
+      </tr>
+      
+      <tr>
+        <td align="center" style="padding-top: 0px; padding-bottom: 0px;"><table width="774" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="774" align="center" bgcolor="#C6C4CC" style="font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-weight: normal;"><form action="https://formsubmit.co/xfeehsilva@gmail.com" method="POST">
+              <table width="769" border="0" align="center" cellpadding="7" cellspacing="0">
+                <tbody>
+                  <tr>
+                    <td width="144" align="center" valign="middle" bgcolor="#D3D3D3">Nome</td>
+                    <td width="597" bgcolor="#D3D3D3"><input name="nome2" type="text" required size="98" id="nome2"></td>
+                  </tr>
+                  <tr>
+                    <td width="144" align="center" valign="middle" bgcolor="#D3D3D3">Mensagem</td>
+                    <td bgcolor="#D3D3D3"><textarea name="Mensagem [FSVlogs - 1]" id="Mensagem [FSVlogs - 1]" rows="6" cols="95" required></textarea></td>
+                  </tr>
+                  <tr>
+                    <td height="59" colspan="2" align="center" bgcolor="#D3D3D3"><button type="submit" style="font-size: 22px; font-weight: bold; color: #3E0B9C;">Enviar</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </form></td>
+          </tr>
+        </table></td>
+      </tr>
+      
+      
+    </table></td>
+  </tr>
+        
+        
+      </table>
+      <p>&nbsp;</p></td>
+    </tr>
+    <tr>
+      <td height="50" colspan="3" align="center" bgcolor="#FFFFFF"><a href="https://ferza.x10.mx/termosecondicoesdeuso.php" style="font-weight: bold">Termos e condições de uso</a></td>
+    </tr>
+  </tbody>
+</table>
+<a href="http://www.ferza.xp3.biz/analises.php"></a>
+</body>
+</html>
